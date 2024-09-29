@@ -1,0 +1,45 @@
+body {
+    background-color: #0f0f0f;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.card {
+    border-radius: 15px;
+    border: 1px solid #28a745;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#resistorResult,
+#capacitorResult,
+#inductorResult {
+    color: #28a745;
+}
+
+.form-control {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #28a745;
+}
